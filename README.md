@@ -1,1 +1,1 @@
-A summer project interacting with crypto APIs with Jack.
+A summer project interacting with crypto APIs with JacksCoins.
