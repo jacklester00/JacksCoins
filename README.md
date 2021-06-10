@@ -1,3 +1,3 @@
 A summer project interacting with crypto APIs with JacksCoins.
 
-To run type: ```npm run ui```
+To run type: ```npm run dev```

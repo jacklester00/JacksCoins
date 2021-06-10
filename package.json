@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js",
-    "ui": "browser-sync start --config bs-config.js"
+    "dev": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",
