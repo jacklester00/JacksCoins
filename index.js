@@ -30,6 +30,10 @@ app.get("/", (req, res) => {
    res.render("index", { title: "Home" });
 });
 
+app.get("/exchangeRates", (req, res) => {
+  res.render("exchangeRates", { title: "Exchange Rates"});
+});
+
 /**
  * Server Activation
  */
