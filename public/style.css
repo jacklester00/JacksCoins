@@ -150,3 +150,26 @@ a {
   background: url("crypto.jpeg") left bottom;
   background-size: cover;
 }
+
+.form-exchangeRates {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-exchangeRates .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-exchangeRates .form-control:focus {
+  z-index: 2;
+}
+.form-exchangeRates input[type="ticker symbol"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}

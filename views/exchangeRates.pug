@@ -1,0 +1,15 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+    h1.Banner Jacks Coins
+    div.Message
+      div.Title
+        form(class="form-exchangeRatess" method="POST" action="/getRates")
+          label Enter Ticker Symbol
+          input(type="text" id="tickerSymbol" value="ticker symbol")
+          input(type="submit" value="Search")
+
+    div.NavButtons
+      a(href="/")
+        div.NavButton Back
